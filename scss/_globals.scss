@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: $background;
+    background: $background-gradient;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+a{
+    font-family: $fuente-secondaria;
+    text-decoration: none;
+    color: $color-font;
+}
+li{
+    list-style: square;
+    color: $color-font;
+}
+h1,h2,h3,h4{
+    font-family: $fuente-principal;
+}
+p{
+    font-family: $fuente-textos;
+}
